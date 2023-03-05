@@ -33,7 +33,6 @@ cursoRouter.get('/curso', verifyToken, async (req: Request, res: Response) => {
             });
 
             const turmaEstipulada = data[0].turma; // Obtém a turma estipulada da Firestore
-            console.log(turmaEstipulada)
 
             const userInfo = data[0];
 
